@@ -1,14 +1,15 @@
 {
-    "name": "Renan Santana dev",
-    "short_name": "Renan Santana dev",
+    "name": "Renan Santana designer",
+    "short_name": "Renan design",
     "theme_color": "#2a0044",
     "background_color": "#000",
     "display": "standalone",
     "start_url": "/",
+    "prefer_related_applications": true,
     "icons": [
       {
         "src": "assets/logo.svg",
-        "sizes": "50x94",
+        "sizes": "192x192",
         "type": "img/svg"
       }
     ]
