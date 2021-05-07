@@ -6,8 +6,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Designer UI Renan Santana" />
     <meta property="og:description" content="Front-end development and UI Designer" />
-    <meta property="og:url" content="https://renansantana-design.web.app/" />
-    <meta property="og:image" content="https://renansantana-design.web.app/img/R.svg" />
+    <meta property="og:url" content="https://renansantana-n.github.io/renandesign.github.io/" />
     <meta property="og:locale" content="pt">
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,11 +18,26 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="keywords" content="software, desenvolvimento web, web development, ui, ux, user interface, user experience, designer, ui designer, ux designer, adobe xd, adobe, figma, interfaces, sucesso, riqueza, design UI"/>
-    <link rel="canonical" href="https://renansantana-design.web.app/" />
+    <link rel="canonical" href="https://renansantana-n.github.io/renandesign.github.io/" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js')
+            .then(function () {
+              console.log('service worker registrado');
+            })
+            .catch(function () {
+              console.warn('falha!');
+            });
+        }
+      </script>
+
+    <!--Manifest - PWA -->
+    <link rel="manifest" href="./manifest.json">
 
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
     <link rel="stylesheet" href="./style.css">
