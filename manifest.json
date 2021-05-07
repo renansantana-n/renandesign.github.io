@@ -5,12 +5,12 @@
     "background_color": "#000000",
     "description": "Designer de interfaces",
     "display": "standalone",
-    "start_url": "/",
+    "start_url": "./",
     "prefer_related_applications": true,
     "icons": [
       {
-        "src": "assets/logo.svg",
-        "sizes": "192x192",
+        "src": "./assets/logo.svg",
+        "sizes": "192x192 512x512",
         "type": "img/svg",
         "purpose": "any maskable"
       }
