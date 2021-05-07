@@ -48,3 +48,26 @@ medium.onmouseout = function (e) {
 };
 
 
+/* GSAP */
+var tl = gsap.timeline({repeat: 0, yoyo: true}); 
+
+/*ANIMACOES*/
+tl.from('.line', {
+    delay: 0.5,
+    duration: 1.3,
+    zIndex: 9,
+    width: 0,
+    ease: "power4"
+})
+
+tl.from('#logo',{
+    transform: 'skew(360deg)',
+    opacity: 0
+})
+
+tl.from('#hello, #content, .socials-icon-item, .contact, .contact-item, .text, .content-text, .down', {
+    opacity: 0,
+    y: 10,
+    stagger: 0.15,
+    ease: "power4"
+})
