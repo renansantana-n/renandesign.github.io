@@ -28,7 +28,7 @@
 
     <script>
         if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.js')
+          navigator.serviceWorker.register('./sw.js')
             .then(function () {
               console.log('service worker registrado');
             })
@@ -39,7 +39,7 @@
       </script>
 
     <!--Manifest - PWA -->
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <base href="https://renansantana-n.github.io/renandesign.github.io/" />
     <meta name="creator" content="Renan Santana">
 
